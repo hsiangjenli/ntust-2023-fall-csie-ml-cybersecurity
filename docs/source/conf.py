@@ -24,10 +24,8 @@ extensions = [
 ]
 
 html_theme = 'pyg_sphinx_theme'
-html_logo = ('https://raw.githubusercontent.com/pyg-team/pyg_sphinx_theme/'
-             'master/pyg_sphinx_theme/static/img/pyg_logo.png')
-html_favicon = ('https://raw.githubusercontent.com/pyg-team/pyg_sphinx_theme/'
-                'master/pyg_sphinx_theme/static/img/favicon.png')
+html_logo = ('https://hsiangjenli.github.io/hsiangjenli/static/image/ntust.png')
+html_favicon = ('https://hsiangjenli.github.io/hsiangjenli/static/image/ntust.png')
 
 
 add_module_names = False

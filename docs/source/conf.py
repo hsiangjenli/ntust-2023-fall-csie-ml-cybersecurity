@@ -11,6 +11,10 @@ author = 'Hsiang-Jen Li'
 
 copyright = f'{datetime.datetime.now().year}, {author}'
 
+if datetime.datetime.now().year != 2023:
+    copyright = "2023 ~ " + copyright
+
+
 sys.path.append(osp.join(osp.dirname(my_sphinx_theme.__file__), 'extension'))
 
 extensions = [

@@ -6,4 +6,5 @@ cleanup:
 
 build:
 	make cpindex
+	make cleanup
 	cd docs && make html

@@ -3,23 +3,25 @@ ntust-2023-fall-csie-ml-cybersecurity
 
 .. image:: https://img.shields.io/github/last-commit/hsiangjenli/ntust-2023-fall-csie-ml-cybersecurity/main
 
-Table of Contents
------------------
+.. toctree::
+   :maxdepth: 1
+   :caption: Cuckoo Sandbox Setup
 
-Reimplementing these papers
----------------------------
+   setup/cuckoo
 
-Credit to ...
--------------
+.. toctree::
+   :maxdepth: 1
+   :caption: Related work
+  
+   related_work/paper
+   related_work/github
 
-- echowei/DeepTraffic
-  - https://github.com/echowei/DeepTraffic
+.. toctree::
+   :maxdepth: 1
+   :caption: Reimplementing
 
-- yungshenglu/USTC-TK2016
-  - https://github.com/yungshenglu/USTC-TK2016
-
-- pyg_sphinx_theme
-  - https://github.com/pyg-team/pyg_sphinx_theme
+   project/api_call_vis   
+   
 
 Contributor
 -----------

@@ -19,7 +19,6 @@ jobs:
         run: |
           pip install nbsphinx
           pip install git+https://github.com/hsiangjenli/hsiangjenli_sphinx_theme.git
-          pip install -e .
 
       - name: Build documentation
         run: |

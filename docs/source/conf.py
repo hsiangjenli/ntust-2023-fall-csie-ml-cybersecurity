@@ -30,7 +30,7 @@ extensions = [
 html_theme = 'pyg_sphinx_theme'
 html_logo = ('https://hsiangjenli.github.io/hsiangjenli/static/image/ntust.png')
 html_favicon = ('https://hsiangjenli.github.io/hsiangjenli/static/image/ntust.png')
-
+html_static_path = ['_static']
 
 add_module_names = False
 autodoc_member_order = 'bysource'
